@@ -1,8 +1,8 @@
-📬 MailScanner – Email Extraction Tool (Python)
+MailScanner – Email Extraction Tool (Python)
 
 MailScanner is a lightweight Python script that helps you extract email addresses from web pages you choose.  
 
-⚠️ Note: This project is intended for **personal or learning purposes only**.  
+Note: This project is intended for **personal or learning purposes only**.  
 Using scraped emails for unsolicited contact or illegal actions is strictly prohibited.
 
 ---
@@ -44,13 +44,4 @@ Please use responsibly and ethically.
 
 ---
 
-❤Why This Project?
-
-This project is part of my personal learning path, blending **Data Science** with **Cybersecurity**.  
-It allowed me to work with:
-- File handling in Python
-- Web scraping basics and ethical considerations
-
----
-
-💬 Feel free to fork, give feedback, or use it as inspiration for your own experiments!
+Feel free to fork, give feedback!
