@@ -2,10 +2,13 @@ from utils import read_txt
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import os
 
-read = read_txt('./url.txt')
+base_path = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(base_path, 'url.txt')
 
-urls = [url.strip() for url in read_txt('./url.txt') if url.strip()]
+
+read = read_txt(file_path)
 
 urls = []
 for url in read:
