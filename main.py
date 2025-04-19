@@ -45,7 +45,8 @@ df = pd.DataFrame()
 for key, value in emails_per_url.items():
     df[key] = pd.Series(value)
 
-df.to_csv('./emails.csv', index=False)
+emails_path = os.path.join(base_path, 'emails.csv')
+df.to_csv(emails_path, index=False)
 
 
 
