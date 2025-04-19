@@ -1,12 +1,56 @@
-This Python Script gives you the possibility to get a csv file which contains all email address presents on a file
+📬 MailScanner – Email Extraction Tool (Python)
 
-First, you need to write down the url link at : url.txt
-Each lines represent one page
+MailScanner is a lightweight Python script that helps you extract email addresses from web pages you choose.  
 
-Then you must launch the python file 'main.py'. You must type 'Python3' in your cmd before launching main.py -> python3 main.py
+⚠️ Note: This project is intended for **personal or learning purposes only**.  
+Using scraped emails for unsolicited contact or illegal actions is strictly prohibited.
 
-A csv file will open. There will be a number of columns that represents the number of url you wrote in url.txt
-Then it follows all the emails.
+---
 
+How It Works
 
-It is illegal to use the emails you scrape from other websites.
+1. Open the file called `url.txt`  
+   - Each line should contain one webpage URL you want to scan
+
+2. Run the script  
+   - Open your terminal or command prompt  
+   - Type:
+     ```bash
+     python3 main.py
+     ```
+
+3. Get the results  
+   - A `.csv` file will be automatically created  
+   - Each column corresponds to one URL  
+   - Email addresses found on each page are listed below
+
+---
+
+Generated CSV:
+
+| mail_1                      | mail_2                          |
+|-----------------------------|----------------------------------|
+| info@example.com            | jane.doe@anotherexample.org     |
+| support@example.com         | contact@anotherexample.org      |
+
+---
+
+Legal Disclaimer
+  
+You are entirely responsible for complying with local laws and the terms of service of the websites you access.
+
+Misusing email addresses obtained with this tool may violate privacy laws or platform guidelines.  
+Please use responsibly and ethically.
+
+---
+
+❤Why This Project?
+
+This project is part of my personal learning path, blending **Data Science** with **Cybersecurity**.  
+It allowed me to work with:
+- File handling in Python
+- Web scraping basics and ethical considerations
+
+---
+
+💬 Feel free to fork, give feedback, or use it as inspiration for your own experiments!
